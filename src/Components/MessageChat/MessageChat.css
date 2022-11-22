@@ -1,0 +1,31 @@
+.main-mes-block {
+    width: 1000px;
+    margin: 50px auto 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.author-block {
+    background: #3434f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.author-block p {
+    margin: 0;
+    padding: 10px 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.message-block {
+    height: 60px;
+}
+
+.message-block p {
+    text-align: left;
+    margin: 0;
+    padding: 15px;
+    word-wrap: break-word;
+}

@@ -1,0 +1,43 @@
+.form-block {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 8px 0 rgba(34, 60, 80, 0.6);
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.input-block input {
+    font-size: 16px;
+    padding: 10px 0 10px 10px;
+    margin-bottom: 10px;
+}
+
+.input-block input:focus {
+    border: 1px solid #61dafb;
+    outline: 3px solid #61dafb;
+    border-radius: 2px;
+}
+
+.form-block button {
+    background: #3434f8;
+    border: 1px solid #61dafb;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form-block button:hover {
+    background: blue;
+}
+
+.form-block button:active {
+    box-shadow: 4px 4px 18px 4px rgba(34, 60, 80, 0.44);
+}
+
